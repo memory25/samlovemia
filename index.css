@@ -1,0 +1,714 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+strong,b {
+    font-weight: bold
+}
+
+ol,ul {
+    list-style: none
+}
+
+blockquote,q {
+    quotes: none
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    -webkit-text-size-adjust: none
+}
+
+body {
+    white-space: nowrap;
+    background: url(./imgs/0.jpg) no-repeat center / cover;
+}
+
+.flowtime {
+    font-size: 0;
+    width: 100%;
+    height: 100%;
+    -o-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -o-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -o-transition: -o-transform .5s cubic-bezier(.77,.10,.22,1);
+    -moz-transition: -moz-transform .5s cubic-bezier(.77,.10,.22,1);
+    -webkit-transition: -webkit-transform .5s cubic-bezier(.77,.10,.22,1);
+    transition: transform .5s cubic-bezier(.77,.10,.22,1)
+}
+
+.flowtime.no-transition {
+    -o-transition: -o-transform 0s;
+    -moz-transition: -moz-transform 0s;
+    -webkit-transition: -webkit-transform 0s;
+    transition: transform 0s
+}
+
+.ft-section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -o-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+}
+
+.ft-section,.ft-section-thumb {
+    font-size: 16px;
+    font-size: 1rem;
+    white-space: normal;
+    display: inline-block;
+    vertical-align: top
+}
+
+
+.ft-overview .ft-page {
+	border: 100px solid #af6285;
+}
+
+
+.ft-page {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: auto;
+    -o-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    border: 5px solid #af6285;
+}
+
+.ft-page.actual {
+    z-index: 100
+}
+
+.ft-overview .ft-page {
+    cursor: pointer;
+    -o-transition: all .5s cubic-bezier(.77,.10,.22,1);
+    -moz-transition: all .5s cubic-bezier(.77,.10,.22,1);
+    -webkit-transition: all .5s cubic-bezier(.77,.10,.22,1);
+    transition: all .5s cubic-bezier(.77,.10,.22,1);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    -o-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%
+}
+
+.ft-overview .ft-page * {
+    pointer-events: none
+}
+
+.ft-absolute-nav {
+    overflow: hidden
+}
+
+.ft-absolute-nav .flowtime {
+    position: absolute
+}
+
+.ft-fragment {
+    opacity: 0;
+    -o-transition: all .3s cubic-bezier(.77,.10,.22,1);
+    -moz-transition: all .3s cubic-bezier(.77,.10,.22,1);
+    -webkit-transition: all .3s cubic-bezier(.77,.10,.22,1);
+    transition: all .3s cubic-bezier(.77,.10,.22,1);
+    -o-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+}
+
+.ft-fragment.revealed.step {
+    opacity: .3
+}
+
+.ft-fragment.revealed.shy {
+    opacity: 0
+}
+
+.ft-fragment.revealed,.ft-fragment.revealed-temp,.ft-fragment.revealed.actual {
+    opacity: 1
+}
+
+.ft-default-progress {
+    position: fixed;
+    bottom: 16px;
+    bottom: 1rem;
+    right: 16px;
+    right: 1rem;
+    z-index: 1000;
+    opacity: .3;
+    -o-transition: all .5s cubic-bezier(.77,.10,.22,1);
+    -moz-transition: all .5s cubic-bezier(.77,.10,.22,1);
+    -webkit-transition: all .5s cubic-bezier(.77,.10,.22,1);
+    transition: all .5s cubic-bezier(.77,.10,.22,1)
+}
+
+.ft-default-progress:hover {
+    opacity: 1
+}
+
+.ft-overview .ft-default-progress {
+    opacity: 0;
+    pointer-events: none
+}
+
+.ft-page-thumb {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 18px;
+    height: 12px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    background-color: rgba(0,0,0,0.7);
+    cursor: pointer;
+    -o-transition: all .3s cubic-bezier(.77,.10,.22,1);
+    -moz-transition: all .3s cubic-bezier(.77,.10,.22,1);
+    -webkit-transition: all .3s cubic-bezier(.77,.10,.22,1);
+    transition: all .3s cubic-bezier(.77,.10,.22,1)
+}
+
+.ft-page-thumb:hover {
+    background-color: rgba(255,255,255,0.7)
+}
+
+.ft-page-thumb.actual {
+    background-color: rgba(255,255,255,0.5);
+    border: 1px solid #fff
+}
+
+img {
+    -o-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+.parallax {
+    position: relative;
+    -o-transition: all .5s cubic-bezier(.50,.10,.50,1);
+    -moz-transition: all .5s cubic-bezier(.50,.10,.50,1);
+    -webkit-transition: all .5s cubic-bezier(.50,.10,.50,1);
+    transition: all .5s cubic-bezier(.50,.10,.50,1)
+}
+
+.ft-overview .parallax {
+    -o-transform: translate3d(0,0,0)!important;
+    -ms-transform: translate3d(0,0,0)!important;
+    -moz-transform: translate3d(0,0,0)!important;
+    -webkit-transform: translate3d(0,0,0)!important;
+    transform: translate3d(0,0,0)!important
+}
+
+@font-face {
+    font-family: 'RuiHeiXiTi';
+    src: url('../fonts/RuiHeiXiTi.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal
+}
+
+html {
+    font-size: 100%;
+    line-height: 1.5rem;
+    background-color: #aaa;
+    color: #fff;
+    text-shadow: 0 0 0.2em #af6285, 0 0 0.2em #af6285, 0 0 0.2em #af6285, 0 0 0.2em #af6285, 0 0 0.2em #af6285, 0 0 0.2em #af6285, 0 0 0.2em #af6285, 0 0 0.2em #af6285, 0 0 0.2em #af6285
+}
+
+body,button {
+    font-family: "RuiHeiXiTi",sans-serif
+}
+
+.navigation,.credits,.switches {
+    display: none
+}
+
+.ft-page {
+    padding: 1em;
+    text-align: center
+}
+
+.flowtime h1,.flowtime h2,.flowtime h3,.flowtime h4,.flowtime h5,.flowtime h6,.flowtime p,.flowtime ul,.flowtime ol,.flowtime dl,.flowtime li,.flowtime dt,.flowtime dd {
+    display: block;
+    -o-transition: all .3s cubic-bezier(.77,.10,.22,1);
+    -moz-transition: all .3s cubic-bezier(.77,.10,.22,1);
+    -webkit-transition: all .3s cubic-bezier(.77,.10,.22,1);
+    transition: all .3s cubic-bezier(.77,.10,.22,1)
+}
+
+.flowtime h1,.flowtime h2,.flowtime h3,.flowtime h4,.flowtime h5,.flowtime h6 {
+    font-weight: bold;
+    color: #613b3b;
+    padding-top: 1em
+}
+
+.flowtime h1 {
+    font-size: 4rem;
+    line-height: 4.3rem
+}
+
+.flowtime h2 {
+    font-size: 3rem;
+    line-height: 3.3rem
+}
+
+.flowtime h3 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.flowtime h4,.flowtime h5,.flowtime h6 {
+    font-size: 1.75rem;
+    line-height: 2rem
+}
+
+.flowtime .ft-page {
+    font-size: 24px;
+}
+
+.flowtime ul,.flowtime ol,.flowtime dl {
+    font-size: 1.75rem;
+    line-height: 2rem;
+    margin: 2rem 0
+}
+
+.flowtime ul,.flowtime ol,.flowtime dl {
+    margin: 0 2rem
+}
+
+.flowtime li,.flowtime dd {
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+    position: relative
+}
+
+.flowtime dt {
+    position: relative
+}
+
+.flowtime ul li:before,.flowtime dl dt:before {
+    content: "\2022";
+    text-align: right;
+    color: #fd0;
+    margin-right: .5rem;
+    display: inline-block;
+    position: absolute;
+    left: -1rem
+}
+
+.flowtime ol {
+    counter-reset: list
+}
+
+.flowtime ol li:before {
+    content: counter(list) ".";
+    counter-increment: list;
+    font-size: .75em;
+    color: #fd0;
+    margin-right: .5rem;
+    display: inline-block;
+    position: relative;
+    top: -0.075em
+}
+
+.flowtime dl dd {
+    font-size: .8em;
+    margin-left: 1rem
+}
+
+.flowtime small {
+    font-size: .6em;
+    vertical-align: middle
+}
+
+.flowtime pre,.flowtime code {
+    font-family: monospace;
+    margin: 1rem 0
+}
+
+.flowtime strong {
+    font-weight: bold;
+    color: #fd0;
+    text-shadow: 1px 2px 0 #000,1px -1px 0 rgba(0,0,0,0.3),-1px -1px 0 rgba(0,0,0,0.3),-1px 1px 0 rgba(0,0,0,0.3)
+}
+
+.flowtime q {
+    quotes: "“" "”"
+}
+
+.flowtime q:before {
+    content: open-quote
+}
+
+.flowtime q:after {
+    content: close-quote
+}
+
+.flowtime blockquote {
+    font-size: 1.5rem;
+    margin: 1.5rem 2rem;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.3);
+    border-left: .5rem solid rgba(255,255,255,0.5);
+    border-radius: .5rem
+}
+
+.flowtime q,.flowtime cite,.flowtime blockquote {
+    font-style: italic
+}
+
+.flowtime .small {
+    font-size: .6em
+}
+
+.flowtime .attention {
+    color: red;
+    text-shadow: 1px 2px 0 #000,1px -1px 0 rgba(0,0,0,0.3),-1px -1px 0 rgba(0,0,0,0.3),-1px 1px 0 rgba(0,0,0,0.3)
+}
+
+.flowtime sup {
+    font-size: .7em;
+    position: relative;
+    top: -0.5em
+}
+
+.flowtime a,.flowtime a:link,.flowtime a:visited,.flowtime a:active,.flowtime a:focus {
+    color: #666;
+    text-decoration: none
+}
+
+.flowtime a:hover {
+    color: #666;
+    text-decoration: underline
+}
+
+.flowtime a:hover img,.flowtime a:active img,.flowtime a:focus img {
+    -webkit-box-shadow: 1px 2px 10px 5px rgba(0,0,0,0.5);
+    box-shadow: 1px 2px 10px 5px rgba(0,0,0,0.5)
+}
+
+.flowtime .stack {
+    width: 100%;
+    height: 100%;
+    margin: 1rem 0;
+    position: relative
+}
+
+.flowtime .stacked {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.flowtime img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.flowtime .stack-center {
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    bottom: 2rem;
+    left: 2rem
+}
+
+.flowtime .stack-center:before {
+    content: "";
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.flowtime .stack-center .stacked-center {
+    white-space: normal;
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    vertical-align: middle
+}
+
+@media screen and (min-height: 41em) and (min-width:80em) {
+    html {
+        font-size:120%
+    }
+}
+
+@media screen and (min-height: 50em) and (min-width:90em) {
+    html {
+        font-size:140%
+    }
+}
+
+@media screen and (max-device-height: 578px) {
+    html {
+        font-size:50%
+    }
+}
+
+.parallax-demo {
+    overflow: hidden
+}
+
+.parallax-demo .kingmix {
+    position: absolute;
+    left: 20%;
+    bottom: -10%;
+    z-index: 50
+}
+
+.parallax-demo .sax {
+    position: absolute;
+    left: 6%;
+    bottom: -18%;
+    z-index: 40
+}
+
+.parallax-demo .tone {
+    position: absolute;
+    left: 49%;
+    bottom: -32%;
+    z-index: 30
+}
+
+.ft-overview .section-1 {
+    margin-top: 0
+}
+
+.ft-overview .section-2 {
+    margin-top: -40%
+}
+
+.ft-overview .section-3 {
+    margin-top: -40%
+}
+
+.ft-overview .section-4 {
+    margin-top: 0
+}
+
+.ft-overview .section-5 {
+    margin-top: 60%
+}
+
+.ft-overview .section-6 {
+    margin-top: 0
+}
+
+.ft-overview .section-7 {
+    margin-top: -40%
+}
+
+.ft-overview .section-8 {
+    margin-top: -40%
+}
+
+.ft-overview .section-9 {
+    margin-top: 0
+}
+
+.ft-page-thumb {
+    background-color: #a54479
+}
+
+.ft-page-thumb.actual {
+    background-color: #44a54a;
+    border: 0
+}
+
+.ft-default-progress {
+    bottom: 3rem;
+    right: 2rem
+}
+
+.thumb-section-0 {
+    position: relative;
+    top: 13px
+}
+
+.thumb-section-3 {
+    position: relative;
+    top: 13px
+}
+
+.thumb-section-4 {
+    position: relative;
+    top: 26px
+}
+
+.thumb-section-5 {
+    position: relative;
+    top: 13px
+}
+
+.thumb-section-8 {
+    position: relative;
+    top: 13px
+}
+
+.thumb-section-8 {
+    position: relative;
+    top: 13px
+}
+
+.mb-4 { margin-bottom: 40px }
+
+
+.page-1 {background: url(./imgs/1.jpg) center no-repeat}
+.page-2 {background: url(./imgs/418.jpg) center no-repeat}
+.page-3 {background: url(./imgs/510.png) center no-repeat}
+.page-4 {background: url(./imgs/519.png) center no-repeat}
+.page-5 {background: url(./imgs/530.png) center no-repeat}
+.page-6 {background: url(./imgs/618.png) center no-repeat}
+.page-7 {background: url(./imgs/625.png) center no-repeat}
+.page-8 {background: url(./imgs/701.png) center no-repeat}
+.page-9 {background: url(./imgs/703.png) center no-repeat}
+.page-10 {background: url(./imgs/704.png) center no-repeat}
+.page-11 {background: url(./imgs/705.png) center no-repeat}
+.page-12 {background: url(./imgs/706.png) center no-repeat}
+.page-13 {background: url(./imgs/707.png) center no-repeat}
+.page-14 {background: url(./imgs/709.png) center no-repeat}
+.page-15 {background: url(./imgs/710.png) center no-repeat}
+.page-16 {background: url(./imgs/712.png) center no-repeat}
+.page-17 {background: url(./imgs/717.png) center no-repeat}
+.page-18 {background: url(./imgs/722.png) center no-repeat}
+.page-19 {background: url(./imgs/723.png) center no-repeat}
+.page-20 {background: url(./imgs/726.png) center no-repeat}
+.page-21 {background: url(./imgs/729.png) center no-repeat}
+.page-22 {background: url(./imgs/730.png) center no-repeat}
+.page-23 {background: url(./imgs/730_1.png) center no-repeat}
+.page-24 {background: url(./imgs/730_2.png) center no-repeat}
+.page-25 {background: url(./imgs/731.jpg) center no-repeat}
+.page-26 {background: url(./imgs/804.png) center no-repeat}
+.page-27 {background: url(./imgs/806.png) center no-repeat}
+.page-28 {background: url(./imgs/807.png) center no-repeat}
+.page-29 {background: url(./imgs/807_2.png) center no-repeat}
+.page-30 {background: url(./imgs/808.png) center no-repeat}
+.page-31 {background: url(./imgs/808_2.png) center no-repeat}
+.page-32 {background: url(./imgs/809.png) center no-repeat}
+.page-33 {background: url(./imgs/811.png) center no-repeat}
+.page-34 {background: url(./imgs/814.jpg) center no-repeat}
+.page-35 {background: url(./imgs/814_3.png) center no-repeat}
+.page-36 {background: url(./imgs/815.png) center no-repeat}
+.page-37 {background: url(./imgs/819.jpg) center no-repeat}
+.page-38 {background: url(./imgs/819_2.jpg) center no-repeat}
+.page-39 {background: url(./imgs/823.png) center no-repeat}
+.page-40 {background: url(./imgs/825.png) center no-repeat}
+.page-41 {background: url(./imgs/907.png) center no-repeat}
+.page-42 {background: url(./imgs/911.jpg) center no-repeat}
+.page-43 {background: url(./imgs/913.png) center no-repeat}
+.page-44 {background: url(./imgs/917.png) center no-repeat}
+.page-45 {background: url(./imgs/917_2.png) center no-repeat}
+.page-46 {background: url(./imgs/921.png) center no-repeat}
+.page-47 {background: url(./imgs/927.png) center no-repeat}
+.page-48 {background: url(./imgs/731.jpg) center no-repeat}
+.page-49 {background: url(./imgs/49.jpg) center no-repeat}
+.page-50 {background: url(./imgs/50.jpg) center no-repeat}
+.page-51 {background: url(./imgs/51.jpg) center no-repeat}
+.page-52 {background: url(./imgs/52.jpg) center no-repeat}
+.page-53 {background: url(./imgs/53.jpg) center no-repeat}
+.page-54 {background: url(./imgs/54.jpg) center no-repeat}
+.page-55 {background: url(./imgs/55.jpg) center no-repeat}
+
+
+.overviewTitle, .overviewSam, .overviewMia {
+	position: absolute;
+	display: none;
+	font-size: 80px;
+	width: 100%;
+	text-align: center;
+}
+.overviewSam {
+	width: 400px;
+	font-size: 160px;
+	left: 0;
+	bottom: 0;
+	text-align: left;
+}
+.overviewMia {
+	width: 400px;
+	font-size: 160px;
+	right: 0;
+	bottom: 0;
+	text-align: right;
+}
+.ft-overview .overviewTitle, .ft-overview .overviewSam, .ft-overview .overviewMia {
+	display: block;
+}

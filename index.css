@@ -187,7 +187,7 @@ body {
     right: 16px;
     right: 1rem;
     z-index: 1000;
-    opacity: .3;
+    opacity: .6;
     -o-transition: all .5s cubic-bezier(.77,.10,.22,1);
     -moz-transition: all .5s cubic-bezier(.77,.10,.22,1);
     -webkit-transition: all .5s cubic-bezier(.77,.10,.22,1);

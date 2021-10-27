@@ -589,22 +589,22 @@ const Flowtime = (function () {
           _toggleOverview(true);
           break;
         case 33:
-          _gotoTop();
+          //_gotoTop();
           break;
         case 34:
-          _gotoBottom();
+          //_gotoBottom();
           break;
         case 35:
-          _gotoEnd();
+          //_gotoEnd();
           break;
         case 36:
-          _gotoHome();
+          //_gotoHome();
           break;
         case 37:
-          _prevSection(e.shiftKey);
+          //_prevSection(e.shiftKey);
           break;
         case 39:
-          _nextSection(e.shiftKey);
+          //_nextSection(e.shiftKey);
           break;
         case 38:
           _prevPage(e.shiftKey);

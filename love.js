@@ -20,3 +20,12 @@ $(function() {
 
     $(window).on('keydown', startMusic)
 });
+
+
+const audio = document.querySelector('audio');
+let musicToggle = true;
+audio.addEventListener('ended', (a)=>{
+	console.log('test')
+	audio.src = musicToggle ? './neverLearn.mp3' : './remember.mp3';
+	musicToggle = !musicToggle;
+})

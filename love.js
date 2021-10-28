@@ -25,6 +25,6 @@ const audio = document.querySelector('audio');
 audio.volume = 0.7;
 let musicToggle = true;
 audio.addEventListener('ended', ()=>{
-	audio.src = musicToggle ? './neverLearn.mp3' : './remember.mp3';
+	audio.src = musicToggle ? 'https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/neverLearn.mp3' : 'https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/remember.mp3';
 	musicToggle = !musicToggle;
 })

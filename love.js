@@ -8,7 +8,6 @@ Flowtime.start();
 
 
 function startMusic(e){
-    console.log(e)
     if(e.keyCode === 40){
         document.querySelector('audio').play()
         $(window).unbind('keydown', startMusic)
@@ -23,9 +22,9 @@ $(function() {
 
 
 const audio = document.querySelector('audio');
+audio.volume = 0.7;
 let musicToggle = true;
-audio.addEventListener('ended', (a)=>{
-	console.log('test')
+audio.addEventListener('ended', ()=>{
 	audio.src = musicToggle ? './neverLearn.mp3' : './remember.mp3';
 	musicToggle = !musicToggle;
 })

@@ -45,7 +45,7 @@ html,body {
 
 body {
     white-space: nowrap;
-    background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/0.jpg) no-repeat center / cover;
+    background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/0.jpg) no-repeat center / cover;
 }
 
 .flowtime {
@@ -631,61 +631,61 @@ body,button {
 .mb-4 { margin-bottom: 40px }
 
 
-.page-1 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/1.jpg) center no-repeat}
-.page-2 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/418.jpg) center no-repeat}
-.page-3 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/510.png) center no-repeat}
-.page-4 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/519.png) center no-repeat}
-.page-5 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/530.png) center no-repeat}
-.page-6 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/618.png) center no-repeat}
-.page-7 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/625.png) center no-repeat}
-.page-8 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/701.png) center no-repeat}
-.page-9 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/703.png) center no-repeat}
-.page-10 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/704.png) center no-repeat}
-.page-11 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/705.png) center no-repeat}
-.page-12 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/706.png) center no-repeat}
-.page-13 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/707.png) center no-repeat}
-.page-14 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/709.png) center no-repeat}
-.page-15 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/710.png) center no-repeat}
-.page-16 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/712.png) center no-repeat}
-.page-17 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/717.png) center no-repeat}
-.page-18 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/722.png) center no-repeat}
-.page-19 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/723.png) center no-repeat}
-.page-20 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/726.png) center no-repeat}
-.page-21 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/729.png) center no-repeat}
-.page-22 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/730.png) center no-repeat}
-.page-23 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/730_1.png) center no-repeat}
-.page-24 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/730_2.png) center no-repeat}
-.page-25 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/731.jpg) center no-repeat}
-.page-26 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/804.png) center no-repeat}
-.page-27 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/806.png) center no-repeat}
-.page-28 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/807.png) center no-repeat}
-.page-29 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/807_2.png) center no-repeat}
-.page-30 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/808.png) center no-repeat}
-.page-31 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/808_2.png) center no-repeat}
-.page-32 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/809.png) center no-repeat}
-.page-33 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/811.png) center no-repeat}
-.page-34 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/814.jpg) center no-repeat}
-.page-35 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/814_3.png) center no-repeat}
-.page-36 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/815.png) center no-repeat}
-.page-37 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/819.jpg) center no-repeat}
-.page-38 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/819_2.jpg) center no-repeat}
-.page-39 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/823.png) center no-repeat}
-.page-40 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/825.png) center no-repeat}
-.page-41 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/907.png) center no-repeat}
-.page-42 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/911.jpg) center no-repeat}
-.page-43 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/913.png) center no-repeat}
-.page-44 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/917.png) center no-repeat}
-.page-45 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/917_2.png) center no-repeat}
-.page-46 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/921.png) center no-repeat}
-.page-47 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/927.png) center no-repeat}
-.page-48 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/731.jpg) center no-repeat}
-.page-49 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/49.jpg) center no-repeat}
-.page-50 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/50.jpg) center no-repeat}
-.page-51 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/51.jpg) center no-repeat}
-.page-52 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/52.jpg) center no-repeat}
-.page-53 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/53.jpg) center no-repeat}
-.page-54 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/54.jpg) center no-repeat}
-.page-55 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/imgs/55.jpg) center no-repeat}
+.page-1 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/1.jpg) center no-repeat}
+.page-2 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/418.jpg) center no-repeat}
+.page-3 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/510.png) center no-repeat}
+.page-4 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/519.png) center no-repeat}
+.page-5 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/530.png) center no-repeat}
+.page-6 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/618.png) center no-repeat}
+.page-7 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/625.png) center no-repeat}
+.page-8 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/701.png) center no-repeat}
+.page-9 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/703.png) center no-repeat}
+.page-10 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/704.png) center no-repeat}
+.page-11 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/705.png) center no-repeat}
+.page-12 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/706.png) center no-repeat}
+.page-13 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/707.png) center no-repeat}
+.page-14 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/709.png) center no-repeat}
+.page-15 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/710.png) center no-repeat}
+.page-16 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/712.png) center no-repeat}
+.page-17 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/717.png) center no-repeat}
+.page-18 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/722.png) center no-repeat}
+.page-19 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/723.png) center no-repeat}
+.page-20 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/726.png) center no-repeat}
+.page-21 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/729.png) center no-repeat}
+.page-22 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/730.png) center no-repeat}
+.page-23 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/730_1.png) center no-repeat}
+.page-24 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/730_2.png) center no-repeat}
+.page-25 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/731.jpg) center no-repeat}
+.page-26 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/804.png) center no-repeat}
+.page-27 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/806.png) center no-repeat}
+.page-28 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/807.png) center no-repeat}
+.page-29 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/807_2.png) center no-repeat}
+.page-30 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/808.png) center no-repeat}
+.page-31 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/808_2.png) center no-repeat}
+.page-32 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/809.png) center no-repeat}
+.page-33 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/811.png) center no-repeat}
+.page-34 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/814.jpg) center no-repeat}
+.page-35 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/814_3.png) center no-repeat}
+.page-36 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/815.png) center no-repeat}
+.page-37 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/819.jpg) center no-repeat}
+.page-38 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/819_2.jpg) center no-repeat}
+.page-39 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/823.png) center no-repeat}
+.page-40 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/825.png) center no-repeat}
+.page-41 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/907.png) center no-repeat}
+.page-42 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/911.jpg) center no-repeat}
+.page-43 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/913.png) center no-repeat}
+.page-44 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/917.png) center no-repeat}
+.page-45 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/917_2.png) center no-repeat}
+.page-46 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/921.png) center no-repeat}
+.page-47 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/927.png) center no-repeat}
+.page-48 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/731.jpg) center no-repeat}
+.page-49 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/49.jpg) center no-repeat}
+.page-50 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/50.jpg) center no-repeat}
+.page-51 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/51.jpg) center no-repeat}
+.page-52 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/52.jpg) center no-repeat}
+.page-53 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/53.jpg) center no-repeat}
+.page-54 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/54.jpg) center no-repeat}
+.page-55 {background: url(https://cdn.jsdelivr.net/gh/memory25/samlovemia@gh-pages/images/55.jpg) center no-repeat}
 
 
 .overviewTitle, .overviewSam, .overviewMia {
